@@ -1,0 +1,65 @@
+
+  .i3{
+    background-color: rgb(241, 203, 132);
+    padding-left: -15;
+    padding-top: -15;
+  }
+  *{
+    font-family: Playfair Display;
+    padding: 10px;
+    font-size: large;
+}
+.i2 {
+    background-color: rgb(241, 203, 132);
+
+  }
+  .div {
+    padding-left: 54px;
+  }
+  .zero {
+    background-color: rgb(163, 170, 182);
+
+  }
+  h2 {
+    color: white;
+    font-family: Quicksand;
+  }
+  .saddness {
+    background-color: rgb(163, 170, 182);
+    padding-top: 10px;
+  }
+  .i {
+    background-color: rgb(241, 203, 132);
+  }
+
+  h2 {
+    text-align: center;
+  }
+  textarea {
+    height: 70px;
+  }
+  button:hover {
+    background-color: whitesmoke;
+  }
+  #flex {
+    display: inline-grid;
+  }
+  button {
+    text-align: left;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+  }
+  .calc {
+    border-style: double;
+    padding: 10px;
+    width: 250px;
+    height: 425px;
+    background-color: black;
+  }
+  .p{
+      width: 225px;
+      height: 20px;
+      text-align: right;
+      background-color: white;
+  }

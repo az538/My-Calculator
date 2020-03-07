@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+  <body>
+    <div class="calc">
+      <script src="calc.js"></script>
+      <h2>Calculator</h2>
+      <p class="p">0</p>
+      <button id="flex" class="saddness" onclick="appendNumber(1)">1</button>
+      <button id="flex" class="saddness" onclick="appendNumber(2)">2</button>
+      <button id="flex" onclick="appendNumber(3)" class="saddness">3</button>
+      <button class="i" onclick="appendNumber('+')" id="flex">+</button>
+      <button id="flex" class="saddness" onclick="appendNumber(5)">5</button>
+      <button id="flex" class="saddness" onclick="appendNumber(6)">6</button>
+      <button id="flex" class="saddness" onclick="appendNumber(4)">4</button>
+      <button id="flex" class="i" onclick="appendNumber('-')">-</button>
+      <button id="flex" class="saddness" onclick="appendNumber(7)">7</button>
+      <button id="flex" class="saddness" onclick="appendNumber(8)">8</button>
+      <button id="flex" class="saddness" onclick="appendNumber(9)">9</button>
+      <button id="flex"  class="i" onclick="appendNumber('*')">×</button>
+      <div id="flex" class="div"><button class="zero" onclick="appendNumber(0)">0</button></div>
+      <button class="i3" onclick="equal()" id="flex">=</button>
+      <button id="flex" class="i3" onclick="appendNumber('/')">÷</button>
+    </div>
+    <p id="flex">Do ('Ctrl + R') to solve again</p>
+    <div>
+    </div>
+  </body>
+</html>
